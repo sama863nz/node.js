@@ -10,3 +10,9 @@
 # CloudFormation - Stacks - Events:
 # will give give informations about the provisiong of AWS Beanstalk in this case
 
+# Configure updates, monitoring, and logging - for CloudWatch Custom Metrics - Instance - select "Enhanced" - select few options for "Cloudwatch Metrics for Instance" and "Environment"
+
+# Further down, Under rolling updates & deployments, select deployment policy as "immutable"
+
+
+
