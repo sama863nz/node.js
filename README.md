@@ -14,5 +14,9 @@
 
 # Further down, Under rolling updates & deployments, select deployment policy as "immutable"
 
+# to ssh the EC2 running Beanstalk
+ssh -i "sam_key_pair.pem" root@ec2-3-225-115-141.compute-1.amazonaws.com 
+# replace root with ec2-user
+ssh -i "sam_key_pair.pem" ec2-user@ec2-3-225-115-141.compute-1.amazonaws.com
 
 
